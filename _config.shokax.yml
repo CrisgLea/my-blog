@@ -1,4 +1,4 @@
-alternate: testName # 站点大标题
+alternate: CrisgLea # 站点大标题
 
 statics: "/" # 静态文件根目录
 assets: "assets"
@@ -169,16 +169,16 @@ iconfont: "4415496_59g1326wajd"
 
 menu:
   home: / || home
-  # about:
-  #   default: / || user
-  #   aboutsite: /about/  || user
-  #   admiration: /admiration/ || coffee
-  # posts:
-  #   default: / || feather
-  #   archives: /archives/ || list-alt
-  #   categories: /categories/ || th
-  #   tags: /tags/ || tags
-  # friends: /friends/ || heart
+  about:
+    default: / || user
+    aboutsite: /about/  || user
+  #  admiration: /admiration/ || coffee
+  posts:
+    default: / || feather
+    archives: /archives/ || list-alt
+    categories: /categories/ || th
+    tags: /tags/ || tags
+    friends: /friends/ || heart
 
 # https://twikoo.js.org
 twikoo:
