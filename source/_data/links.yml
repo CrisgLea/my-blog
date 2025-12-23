@@ -1,0 +1,6 @@
+- group: 核心友链
+  items:
+    - name: 克里斯凪
+      url: https://www.crisglea.top
+      img: https://pub-5ba3d0ad40a24ef592534696f7db2ba7.r2.dev/avatar.png # 必须是公网可访问的图片
+      desc: 凪の墓

@@ -58,7 +58,7 @@ default_category: uncategorized
 category_map:
 tag_map:
 
-# Metadata elements
+# Metadata elets
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
 meta_generator: true
 
@@ -79,7 +79,6 @@ pagination_dir: page
 # Include / Exclude file(s)
 ## include:/exclude: options only apply to the 'source/' folder
 include:
-  - "_data/assets/*"
 exclude:
 ignore:
 

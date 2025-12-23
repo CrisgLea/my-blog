@@ -23,7 +23,7 @@ pwa:
 experiments:
   mobileWidth: 820px # 移动版和桌面版导航栏最短切换长度
   copyrightLength: 50 # 自定义复制时显示copyright的长度
-  antiFakeWebsite: true # 防止恶意网站伪装
+  antiFakeWebsite: false # 防止恶意网站伪装
 
 homeConfig:
   gradient: false # 使用CSS渐变作为文章封面
@@ -178,7 +178,7 @@ menu:
     archives: /archives/ || list-alt
     categories: /categories/ || th
     tags: /tags/ || tags
-    friends: /friends/ || heart
+  friends: /friends/ || heart
 
 # https://twikoo.js.org
 twikoo:
@@ -278,7 +278,7 @@ footer:
   icp: # ICP备案
     enable: enable # 是否启用ICP备案显示
     # 请在登录后从 https://beian.mps.gov.cn/web/business/businessHome/website 下载对应图标
-    icon: "/source/_data/assets/beian.png" #网安备案图片
+    icon: "/assets/beian.png" #网安备案图片
     icpnumber: "鄂ICP备2025165699号" # ICP备案号
     beian: "xxx" # 网安备案号
     recordcode: "xxx" # 网安备案链接中的recordcode参数
@@ -320,12 +320,16 @@ tagcloud:
 creative_commons:
   license: by-nc-sa
   language: deed.zh
-
+# friends
+links:
+  enable: true
 # bgm
 audio:
-  - title: 列表1
+  - title: 好听的
     list:
-      - https://pub-5ba3d0ad40a24ef592534696f7db2ba7.r2.dev/%E3%81%82%E3%81%9F%E3%82%89%E3%82%88%20-%2010%E6%9C%88%E7%84%A1%E5%8F%A3%E3%81%AA%E5%90%9B%E3%82%92%E5%BF%98%E3%82%8C%E3%82%8B.flac
+      - title: 10月無口な君を忘れる
+        artist: あたらよ
+        url: https://pub-5ba3d0ad40a24ef592534696f7db2ba7.r2.dev/October.mp3
 #  - title: 列表2
 #    list:
 #      - https://music.163.com/#/playlist?id=2031842656
