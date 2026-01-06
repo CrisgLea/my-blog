@@ -278,7 +278,7 @@ footer:
   icp: # ICP备案
     enable: enable # 是否启用ICP备案显示
     # 请在登录后从 https://beian.mps.gov.cn/web/business/businessHome/website 下载对应图标
-    icon: https://beian.mps.gov.cn/web/assets/logo01.6189a29f.png #网安备案图片
+    icon: "beian.png" #网安备案图片
     icpnumber: "鄂ICP备2025165699号" # ICP备案号
     beian: "鄂公网安备42011302001027号" # 网安备案号
     recordcode: "4201130200102" # 网安备案链接中的recordcode参数
